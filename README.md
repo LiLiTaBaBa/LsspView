@@ -1,7 +1,7 @@
 # LsspView
 
 
-Lssp自定义View的实
+Lssp自定义View的实列
 Lssp原型头像显示View
 Lssp圆形数据显示View
 Lssp南丁格尔玫瑰图View
