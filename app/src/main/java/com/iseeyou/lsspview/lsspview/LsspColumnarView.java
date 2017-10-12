@@ -40,7 +40,7 @@ public class LsspColumnarView extends View {
     private float[] heights={162.2f,150.6f,132.6f,86.4f,63.5f};
     private String[] titles={"分类1","分类2","分类3","分类4","分类5"};
     private float mValueAnimation=1;
-    private boolean isMoving=false;
+    private boolean isMoving=false;//
 
     public LsspColumnarView(Context context) {
         this(context,null);
