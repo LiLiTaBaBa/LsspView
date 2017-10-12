@@ -27,4 +27,4 @@ Lssp折线图View
 
 Lssp柱状图View
 
-![image](https://github.com/LiLiTaBaBa/LsspView/blob/master/pic/LsspCloumnarView.jpg)
+![image](https://github.com/LiLiTaBaBa/LsspView/blob/master/pic/LsspColumnarView.jpg)
