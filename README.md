@@ -16,3 +16,24 @@
 ![image](https://github.com/LiLiTaBaBa/LsspView/blob/master/pic/LsspRoseLeafView.jpg)
 ![image](https://github.com/LiLiTaBaBa/LsspView/blob/master/pic/LsspWarningRankView.jpg)
 ![image](https://github.com/LiLiTaBaBa/LsspView/blob/master/pic/LsspColumnarView.jpg)
+
+```
+//折线图添加随机点
+private void setPoints(final LsspBrokenLineView lsspBrokenLineView) {
+        //设置点位
+        final List<PointBean> list = new ArrayList<>();
+        lsspBrokenLineView.post(new Runnable() {
+            @Override
+            public void run() {
+                float time = 0;
+                for (int i = 0; i < 11; i++) {
+                    float health = 48 + ((new Random().nextFloat() * (53 - 48)));
+                    list.add(lsspBrokenLineView.getPointByTimeAndHealth(time, health));
+                    time++;
+                }
+                lsspBrokenLineView.addPoints(list);
+                lsspBrokenLineView.excuteAnim();
+            }
+        });
+    }
+```
