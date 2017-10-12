@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">LsspChartView</string>
+    <array name="titles">
+        <item >LsspHeaderView</item>
+        <item >LsspCircleDataInfoView</item>
+        <item >LsspRoseLeafView</item>
+        <item >LsspWarningRankView</item>
+        <item >LsspBrokenLineView</item>
+        <item >LsspColumnarView</item>
+    </array>
+    <array name="infos">
+        <item >LsspHeaderView lssp 圆形头像</item>
+        <item >LsspCircleDataInfoView 原型数据显示图</item>
+        <item >LsspRoseLeafView 南丁格尔玫瑰图</item>
+        <item >LsspWarningRankView 南丁格尔饼状图图</item>
+        <item >LsspBrokenLineView 折线图</item>
+        <item >LsspColumnarView 柱状图</item>
+    </array>
+</resources>
