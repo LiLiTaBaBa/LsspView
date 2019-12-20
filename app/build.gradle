@@ -1,6 +1,7 @@
 apply plugin: 'com.android.application'
 apply plugin: 'com.github.dcendents.android-maven'
 group='com.github.LiLiTaBaBa'
+
 android {
     compileSdkVersion 28
     buildToolsVersion "28.0.3"
