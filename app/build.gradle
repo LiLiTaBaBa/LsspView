@@ -1,4 +1,4 @@
-apply plugin: 'com.android.application'
+apply plugin: 'com.android.library'
 apply plugin: 'com.github.dcendents.android-maven'
 group='com.github.LiLiTaBaBa'
 
@@ -6,7 +6,7 @@ android {
     compileSdkVersion 28
     buildToolsVersion "28.0.3"
     defaultConfig {
-        applicationId "com.iseeyou.lsspview"
+        //applicationId "com.iseeyou.lsspview"
         minSdkVersion 15
         targetSdkVersion 28
         versionCode 1
