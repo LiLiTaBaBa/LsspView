@@ -1,4 +1,5 @@
 # LsspView
+[![](https://jitpack.io/v/LiLiTaBaBa/LsspView.svg)](https://jitpack.io/#LiLiTaBaBa/LsspView)
 
 ### Lssp自定义View的实列
 ### Lssp原型头像显示View
